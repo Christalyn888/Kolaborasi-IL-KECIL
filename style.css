@@ -1,0 +1,188 @@
+/* Memusatkan header */
+.header {
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+
+/* kode css navigator */
+ul {
+    list-style: none;
+    background-color: #feecd5;
+    padding: 0px 0px;
+    position: absolute;
+    margin: 120px 0px;
+    width: 1255px;
+    min-height: 90px; /* Menambahkan min-height untuk memperpanjang area background */
+}
+ul li {
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+ul li a {
+    padding: 10px 0px;
+    text-align: center;
+}
+ul a:hover {
+    background-color: #404040;
+    padding: 2px;
+}
+
+/* kode css dropdown */
+ul li ul.dropdowna {
+    background-color: #fbd7e3;
+    position: absolute;
+    display: none;
+    width: 290px;
+    height: 400px;
+    margin: 0px 0px;
+}
+ul li:hover ul.dropdowna {
+    display: block;
+}
+ul li ul.dropdown {
+    background-color: #fbd7e3;
+    position: absolute;
+    display: none;
+    width: 290px;
+    height: 800px;
+    margin: 0px 0px;
+}
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+/* kode css side bar */
+.test{
+    display: flexbox;
+}
+
+.column {
+    float: left;
+    padding: 0px 10px;
+}
+
+/* LEFT COLUMN */
+.column.side {
+    margin: 190px 0px;
+    width: 257px;
+    height: auto; /* Mengubah height menjadi auto agar mengikuti konten */
+    min-height: 750px; /* Atau sesuaikan dengan panjang yang kamu inginkan */
+    background-color: #feecd5;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Kode css middle bar */
+.column.middle {
+    margin: 190px 0px;
+    width: 950px;
+    height: auto; /* Mengubah height menjadi auto agar mengikuti konten */
+    min-height: 750px; /* Atau sesuaikan dengan panjang yang kamu inginkan */
+    background-color: #feecd5;
+    color: #404040;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* kode footer */
+.Footer {
+    width: 100%; /* Mengatur lebar footer sesuai dengan lebar halaman */
+    position: fixed; /* Menggunakan absolute agar berada di bawah halaman */
+    bottom: 0px; /* Menempel di bagian bawah */
+    left: 0px; /* Pastikan footer rata kiri */
+}
+
+h2 {
+    color: #4d0733;
+    text-align: center;
+    background-color: #feecd5;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    color: #4d0733;
+    text-align: justify;
+    background-color: #feecd5;
+    font-family:Cochin, Georgia, Times, 'Times New Roman', serif ;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+@font-face{
+    font-family: "blueberry";
+    src: url(blueberry_4/Blueberry\ .ttf);
+}
+p.Awal{
+    color: #4d0733;
+    text-align: left;
+    background-color: #feecd5;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Menambah gaya untuk memusatkan teks header "Ini Adalah Jenis Kerjasama" */
+.header-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+h2{
+    font-family: "blueberry";
+}
+
+/* Menambahkan latar belakang pada konten "Lorem ipsum" */
+.content {
+    background-color: #fbd7e3; /* Latar belakang mirip dropdown */
+    padding: 20px; /* Memberikan jarak antara teks dan border */
+    text-align: center; /* Memusatkan teks */
+    margin-top: 20px; /* Memberikan jarak atas */
+    font-size: 18px; /* Ukuran font */
+}
+
+/* background halaman */
+body {
+    background-image: url(Untitled\ \(YouTube\ Thumbnail\).svg);
+    background-size: cover;
+}
+
+/* Styling gambar */
+img.SDGS {
+    margin-bottom: 15px;
+}
+img.Indo {
+    margin-bottom: 15px;
+}
+Img.Korea {
+    margin-bottom: 15px;
+}
+table{
+    border: 3px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid rgb(153, 28, 153);
+    height: 70px;
+}
+
+td{
+    border: 1px solid rgb(0, 0, 0);
+    vertical-align: middle;
+    height: 50px;
+    color: rgb(0, 0, 0);
+}
+tr:nth-child(odd){
+    background-color: #feecd5;
+}
+tr:nth-child(even){
+    background-color: #feecd5;
+}
+h2.Awal{
+    margin-top: 140px;
+}
+.home{
+    bottom: 0px;
+}
